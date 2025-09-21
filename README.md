@@ -57,3 +57,20 @@ URL : https://puter.com/app/free-ai-chatbot
 ## Imgaes
 <img width="1475" height="959" alt="chatbot" src="https://github.com/user-attachments/assets/30f76b49-8542-4740-a28e-94daac62780e" />
 
+## Information
+
+### Some models may not work because they require a paid plan.
+
+If you encounter the following error:
+
+```
+
+Error: {"success":false,"error":{"delegate":"usage-limited-chat","message":"Error 400 from delegate `usage-limited-chat`: Permission denied.","code":"error_400_from_delegate","$":"heyputer:api/APIError","status":400}}
+
+```
+
+### Please try clearing your browser cookies or open the chatbot in a private/incognito window.
+
+
+
+
