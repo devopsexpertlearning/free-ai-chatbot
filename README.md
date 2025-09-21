@@ -1,4 +1,4 @@
-# Free AI Chatbot
+# Free & Unlimited AI Chatbot
 
 **Free AI Chatbot** is a web-based chatbot application that uses the [js.puter.com/v2](https://js.puter.com/v2) API to serve AI-powered responses. Users can interact with a wide range of AI models for text and image generation directly from the chat interface.
 
