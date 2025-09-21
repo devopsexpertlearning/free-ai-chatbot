@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Puter.js ChatGPT Clone</title>
+
+  <!-- PrismJS for syntax highlighting -->
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-html.min.js"></script>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="chatContainer"></div>
+
+  <!-- Model dropdown -->
+  <div id="modelContainer">
+    <label for="modelSelect">Model:</label>
+    <select id="modelSelect">
+      <option>Loading models...</option>
+    </select>
+  </div>
+
+  <div id="inputContainer">
+    <input type="text" id="userInput" placeholder="Type your message..."/>
+    <button id="sendBtn">Send</button>
+    <button id="themeToggle">🌓</button>
+  </div>
+
+  <button id="scrollBtn">↓</button>
+
+  <script src="https://js.puter.com/v2/"></script>
+  <script src="app.js"></script>
+</body>
+</html>
